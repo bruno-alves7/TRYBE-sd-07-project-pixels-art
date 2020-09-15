@@ -19,9 +19,10 @@ for(let i = 0; i < num; i += 1){
 }
 
 let color = document.querySelectorAll(".color");
-
-color[0].addEventListener("click", function(){
-    
+for(let i = 0 ; i <color.length ; i += 1){
+    color[i].addEventListener("click", function (event) {
+    let selected = document.querySelector(".selected")
+    selected.classList.remove("selected");
+    event.target.className += " selected"
 })
-
-console.log(color);
+}
