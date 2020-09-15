@@ -11,11 +11,17 @@ for(let i = 0; i < num; i += 1){
     pixelBoard.appendChild(linha[i]);
 
     for(let j = 0; j < num ; j += 1) {
-        pixel[k] = document.createElement("div")
+        pixel[k] = document.createElement("div");
         pixel[k].className = "pixel";
-        linha[i].appendChild(pixel[k])
+        linha[i].appendChild(pixel[k]);
         k += 1;
     }
 }
-console.log(pixel);
 
+let color = document.querySelectorAll(".color");
+
+color[0].addEventListener("click", function(){
+    
+})
+
+console.log(color);
