@@ -30,6 +30,7 @@ h1{
     width: 100px;
     height: 100px;
     margin:0px;
+    text-align: center;
 }
 
 .color1{
@@ -45,6 +46,7 @@ h1{
     background-color:blue;
 }
 .pixel{
+    text-align: center;
     background-color: white;
     border-color: black;
     border-style: solid;
@@ -55,5 +57,11 @@ h1{
 }
 
 button{
-    align-items: center;
+    height: 40px;
+    width: 80px;
+    margin:20px;
+    text-align: center;
+}
+.box{
+    padding: 100px
 }
