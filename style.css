@@ -56,12 +56,6 @@ h1{
     display: inline-block;
 }
 
-button{
-    height: 40px;
-    width: 80px;
-    margin:20px;
-    text-align: center;
-}
 .box{
     padding: 100px
 }
