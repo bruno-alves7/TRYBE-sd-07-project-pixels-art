@@ -1,1 +1,0 @@
-# TRYBE-sd-07-project-pixels-art
